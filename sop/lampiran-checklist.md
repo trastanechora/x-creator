@@ -14,6 +14,7 @@
 - [ ] Bila Sumber_Kutipan belum dapat diverifikasi, status Quotes ditetapkan PENDING dan tidak ditayangkan hingga verifikasi selesai (Requirement R3.3)
 - [ ] Quotes tidak melanggar hak cipta (tidak memuat materi berhak cipta tanpa izin atau di luar batas penggunaan wajar) (Requirement R3.4)
 - [ ] Atribusi benar-benar tercantum pada postingan (dapat berupa nama tokoh, tradisi/peradaban, atau label "Anonim") (Requirement R3.5)
+- [ ] Inisial Pengelola/Admin_Utama penanggung jawab tercantum di akhir baris atribusi, dipisahkan tanda koma, huruf kapital 2–3 huruf (SOP-4.3) (Requirement R4.2)
 - [ ] Panjang karakter Quotes tidak melebihi batas maksimum Platform_X (Requirement R2.6)
 - [ ] Ejaan Bahasa Indonesia baku sesuai PUEBI untuk seluruh konten berbahasa Indonesia (Requirement R4.1)
 - [ ] Tanda baca, penggunaan huruf kapital, dan format kutipan (tanda petik serta pemisah atribusi) sesuai Styleguide (Requirement R4.2)

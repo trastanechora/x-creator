@@ -6,11 +6,11 @@
 
 Template ini menjadi acuan baku penyusunan setiap postingan Quotes. *(Requirement R4.6)*
 
-Struktur wajib: (1) isi kutipan dalam tanda petik, (2) baris atribusi yang diawali tanda pisah `—`, dan (3) baris tagar. Atribusi **wajib tercantum** pada setiap postingan (SOP-3.5), dan jumlah tagar mengikuti aturan **minimum 1 dan maksimum 5** tagar baku per postingan (SOP-4.4).
+Struktur wajib: (1) isi kutipan dalam tanda petik, (2) baris atribusi yang diawali tanda pisah `—` dan **diakhiri inisial admin penanggung jawab**, dan (3) baris tagar. Atribusi **wajib tercantum** pada setiap postingan (SOP-3.5), inisial admin **wajib dicantumkan** di akhir baris atribusi (SOP-4.3), dan jumlah tagar mengikuti aturan **minimum 1 dan maksimum 5** tagar baku per postingan (SOP-4.4).
 
 ```
 "{isi kutipan}"
-— {Atribusi: nama tokoh / "Anonim" / nama tradisi-peradaban}
+— {Atribusi: nama tokoh / "Anonim" / nama tradisi-peradaban}, {INISIAL_ADMIN}
 
 {1–5 tagar baku, mis. #Renungan #NilaiMoral}
 ```
@@ -19,6 +19,7 @@ Catatan pengisian:
 
 - **{isi kutipan}** — teks kutipan sesuai Styleguide (ejaan baku PUEBI, tanda baca, huruf kapital; SOP-4.1–SOP-4.2). Panjang total postingan tidak boleh melampaui batas karakter Platform_X (SOP-2.7).
 - **{Atribusi}** — pilih salah satu: nama tokoh bernama yang telah **terverifikasi ≥ 2 rujukan tepercaya** (SOP-3.1), label `"Anonim"`, atau nama tradisi/peradaban untuk kutipan yang bersumber dari tradisi (SOP-3.2). Atribusi tidak boleh dikosongkan.
+- **{INISIAL_ADMIN}** — inisial **Pengelola/Admin_Utama yang menyetujui dan menayangkan** postingan, ditulis **huruf kapital 2–3 huruf** (mis. `AR`, `SNU`) dan **dipisahkan dari atribusi dengan tanda koma dan spasi** (`, `). Wajib terisi pada setiap postingan sebagai penanda akuntabilitas (SOP-4.3; rujuk daftar Pengelola SOP-1.6/SOP-11.4). Tidak boleh dikosongkan dan tidak menggantikan atribusi sumber.
 - **{tagar}** — gunakan **1 hingga 5** tagar dari daftar tagar baku (SOP-4.4). Kurang dari 1 atau lebih dari 5 tagar tidak diperbolehkan.
 - Postingan hanya boleh tayang setelah berstatus **APPROVED** (SOP-2.8). Contoh format lengkap tersedia di `lampiran-contoh.md`.
 

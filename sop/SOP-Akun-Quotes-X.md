@@ -244,7 +244,9 @@ Identifikasi Sumber_Kutipan
 - **"Anonim"** — untuk sumber anonim (SOP-3.2);
 - **Nama tradisi/peradaban** — untuk sumber tradisi/peradaban (SOP-3.2).
 
-Kepatuhan atas kewajiban ini **wajib dipastikan** sebelum transisi ke APPROVED dan diperiksa kembali sebelum POSTED (lihat Checklist Pra-Posting pada `lampiran-checklist.md` dan Template Format Postingan pada `lampiran-template.md`). Dengan aturan ini, setiap postingan dijamin memiliki atribusi valid yang sesuai jenis sumbernya. *(Requirement R3.5)*
+Selain atribusi sumber, baris atribusi setiap postingan **wajib diakhiri dengan inisial Pengelola/Admin_Utama penanggung jawab** penayangan, sesuai format pemisah yang ditetapkan pada SOP-4.3 (dipisahkan tanda koma, mis. `— Nelson Mandela, AR`). Inisial ini adalah penanda akuntabilitas dan **tidak menggantikan** atribusi sumber yang tetap wajib tercantum.
+
+Kepatuhan atas kewajiban ini **wajib dipastikan** sebelum transisi ke APPROVED dan diperiksa kembali sebelum POSTED (lihat Checklist Pra-Posting pada `lampiran-checklist.md` dan Template Format Postingan pada `lampiran-template.md`). Dengan aturan ini, setiap postingan dijamin memiliki atribusi valid yang sesuai jenis sumbernya serta inisial penanggung jawab. *(Requirement R3.5)*
 
 ## Bagian 4: Format Penulisan & Tata Bahasa (Styleguide)
 
@@ -277,18 +279,19 @@ Kepatuhan ejaan diperiksa pada Checklist Pra-Posting (`lampiran-checklist.md`) s
 
 1. **Tanda petik** — isi kutipan diapit **tanda petik ganda** (`"…"`). Bila di dalam kutipan terdapat kutipan lain, gunakan tanda petik tunggal (`'…'`) untuk kutipan bagian dalam.
 2. **Pemisah atribusi** — atribusi ditulis pada baris baru dan **diawali tanda pisah em dash dan spasi** (`— `), diikuti nama tokoh, "Anonim", atau nama tradisi/peradaban. Contoh pemisah: `— Nama Tokoh`.
-3. **Kesesuaian dengan Bagian 3** — jenis dan isi atribusi mengikuti aturan atribusi pada Bagian 3 (SOP-3.1, SOP-3.2, SOP-3.5); Styleguide hanya mengatur *bentuk penulisannya*.
+3. **Inisial admin penanggung jawab** — pada **setiap** postingan, di **akhir baris atribusi** wajib dicantumkan **inisial Pengelola/Admin_Utama yang menyetujui dan menayangkan** postingan tersebut, **dipisahkan dari atribusi dengan tanda koma dan spasi** (`, `). Inisial ditulis **huruf kapital, 2–3 huruf** (mis. `AR`, `SNU`) agar mudah dibedakan dari nama sumber. Inisial ini berfungsi sebagai penanda akuntabilitas: menunjukkan siapa yang bertanggung jawab atas penayangan (rujuk daftar Pengelola & wewenang SOP-1.6, SOP-11.4). Contoh: `— Nelson Mandela, AR`.
+4. **Kesesuaian dengan Bagian 3** — jenis dan isi atribusi mengikuti aturan atribusi pada Bagian 3 (SOP-3.1, SOP-3.2, SOP-3.5); Styleguide hanya mengatur *bentuk penulisannya*.
 
 Format baku (acuan): 
 
 ```
 "{isi kutipan}"
-— {Atribusi: nama tokoh / "Anonim" / nama tradisi-peradaban}
+— {Atribusi: nama tokoh / "Anonim" / nama tradisi-peradaban}, {INISIAL_ADMIN}
 
 {1–5 tagar baku}
 ```
 
-Contoh penerapan lengkap tersedia pada `lampiran-contoh.md` (lihat SOP-4.7). *(Requirement R4.2)*
+Inisial admin dihitung sebagai bagian dari batas 280 karakter (SOP-2.7). Contoh penerapan lengkap tersedia pada `lampiran-contoh.md` (lihat SOP-4.7). *(Requirement R4.2)*
 
 ### 4.3 Aturan Tagar (Hashtag) dan Daftar Tagar Baku
 
