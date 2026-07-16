@@ -291,7 +291,7 @@ Format baku (acuan):
 {1–5 tagar baku}
 ```
 
-Inisial admin dihitung sebagai bagian dari batas 280 karakter (SOP-2.7). Contoh penerapan lengkap tersedia pada `lampiran-contoh.md` (lihat SOP-4.7). *(Requirement R4.2)*
+Inisial admin dihitung sebagai bagian dari batas 280 karakter (SOP-2.7). Contoh penerapan lengkap tersedia pada `lampiran-contoh.md` (lihat SOP-4.7). *(Requirement R4.2, R4.3)*
 
 ### 4.3 Aturan Tagar (Hashtag) dan Daftar Tagar Baku
 
@@ -319,7 +319,7 @@ Inisial admin dihitung sebagai bagian dari batas 280 karakter (SOP-2.7). Contoh 
 
 > [TODO: Tinjau dan perluas daftar tagar baku secara berkala sesuai tema kampanye/kalender konten; pertahankan konsistensi penulisan CamelCase dan relevansi nilai moral.]
 
-*(Requirement R4.3)*
+*(Requirement R4.4)*
 
 ### 4.4 Nada Komunikasi (Tone of Voice)
 
@@ -329,7 +329,7 @@ Inisial admin dihitung sebagai bagian dari batas 280 karakter (SOP-2.7). Contoh 
 2. **Sopan** — bahasa santun dan menghormati pembaca; **dilarang** kasar, merendahkan, menyindir tajam, sarkastik, atau provokatif.
 3. **Reflektif** — mengajak merenung dan berpikir, bukan menggurui, memaksakan, atau menghakimi; hindari nada sensasional dan klik umpan (*clickbait*).
 
-Nada ini juga **wajib dipatuhi pada balasan komentar dan seluruh interaksi keluar** sesuai Bagian 6 (SOP terkait R6.3 dan R6.5), sehingga suara akun konsisten di konten maupun percakapan. *(Requirement R4.4)*
+Nada ini juga **wajib dipatuhi pada balasan komentar dan seluruh interaksi keluar** sesuai Bagian 6 (SOP terkait R6.3 dan R6.5), sehingga suara akun konsisten di konten maupun percakapan. *(Requirement R4.5)*
 
 ### 4.5 Kebijakan Terjemahan (Kebijakan Umum yang Selalu Ada)
 
@@ -340,11 +340,11 @@ Nada ini juga **wajib dipatuhi pada balasan komentar dan seluruh interaksi kelua
 
 > [TODO: Tetapkan aturan terjemahan spesifik (format penempatan teks asli & terjemahan, atribusi penerjemah, penanganan idiom/ayat) sebelum memublikasikan Quotes berbahasa asing. Hingga aturan ini lengkap, gerbang SOP-4.8 tetap memblokir posting berbahasa asing.]
 
-*(Requirement R4.5)*
+*(Requirement R4.6)*
 
 ### 4.6 Contoh Format Postingan (Rujukan Lampiran)
 
-**SOP-4.7** — **Minimal tiga contoh format.** SOP ini **wajib menyediakan minimal tiga (3) contoh format postingan Quotes yang benar** sebagai acuan operasional. Ketiga contoh tersebut dikumpulkan pada berkas **`lampiran-contoh.md`** dan mencakup: (1) kutipan **tokoh bernama terverifikasi**, (2) kutipan **anonim**, dan (3) kutipan **tradisi/peradaban**. Setiap contoh mematuhi format kutipan dan pemisah atribusi (SOP-4.3), batas 1–5 tagar (SOP-4.4), batas 280 karakter (SOP-2.7), dan kewajiban atribusi tercantum (SOP-3.5). Template dasar format postingan tersedia pada `lampiran-template.md`. *(Requirement R4.6)*
+**SOP-4.7** — **Minimal tiga contoh format.** SOP ini **wajib menyediakan minimal tiga (3) contoh format postingan Quotes yang benar** sebagai acuan operasional. Ketiga contoh tersebut dikumpulkan pada berkas **`lampiran-contoh.md`** dan mencakup: (1) kutipan **tokoh bernama terverifikasi**, (2) kutipan **anonim**, dan (3) kutipan **tradisi/peradaban**. Setiap contoh mematuhi format kutipan dan pemisah atribusi (SOP-4.3), batas 1–5 tagar (SOP-4.4), batas 280 karakter (SOP-2.7), dan kewajiban atribusi tercantum (SOP-3.5). Template dasar format postingan tersedia pada `lampiran-template.md`. *(Requirement R4.7)*
 
 ### 4.7 Gerbang Bahasa Asing (Fail-Safe)
 
@@ -354,7 +354,7 @@ Nada ini juga **wajib dipatuhi pada balasan komentar dan seluruh interaksi kelua
 2. **Kondisi pembukaan gerbang** — gerbang hanya terbuka setelah aturan terjemahan spesifik selesai ditetapkan dan diverifikasi; sejak saat itu Quotes berbahasa asing yang telah disertai terjemahan Bahasa Indonesia yang memenuhi Styleguide dapat diproses seperti Quotes biasa.
 3. **Status saat ini** — karena seluruh Quotes saat ini berbahasa Indonesia, gerbang ini praktis tidak menghambat operasional harian, namun tetap berlaku sebagai pengaman bila konten asing muncul sebelum aturan terjemahan lengkap.
 
-Dengan aturan ini, tidak ada Quotes berbahasa asing yang tayang selama aturan terjemahan belum ditetapkan, sejalan dengan prinsip *fail-safe* SOP. *(Requirement R4.7, R4.5)*
+Dengan aturan ini, tidak ada Quotes berbahasa asing yang tayang selama aturan terjemahan belum ditetapkan, sejalan dengan prinsip *fail-safe* SOP. *(Requirement R4.8, R4.6)*
 
 ## Bagian 5: Kriteria Akun yang Diikuti (Following)
 
@@ -469,7 +469,7 @@ Bagian ini menetapkan **kriteria isi komentar dan Interaksi** Akun_Quotes: komen
 Bagian ini membedakan dua arah aktivitas:
 
 - **Komentar masuk** — komentar dari pengguna lain di kolom komentar Akun_Quotes; dinilai dengan kriteria diperbolehkan/dilarang (SOP-6.1, SOP-6.2) dan ditangani lewat moderasi (Bagian 7).
-- **Interaksi keluar** — balasan, komentar, repost, like, atau mention yang **dilakukan** Akun_Quotes terhadap pengguna/konten lain; tunduk pada aturan balasan (SOP-6.3, SOP-6.4) dan gerbang keselarasan nilai moral (SOP-6.5).
+- **Interaksi keluar** — balasan, komentar, repost, like, atau mention yang **dilakukan** Akun_Quotes terhadap pengguna/konten lain; tunduk pada aturan balasan (SOP-6.3, SOP-6.4), gerbang keselarasan nilai moral (SOP-6.5), dan frekuensi minimum balasan pada akun berpengaruh (SOP-6.6).
 
 ### 6.1 Kriteria Isi Komentar yang Diperbolehkan (Logika OR)
 
@@ -526,6 +526,24 @@ Dengan aturan ini, komentar provokatif/menyerang ditangani melalui jalur moderas
 4. **Tunduk pada Styleguide** — setiap interaksi keluar berupa teks (balasan/komentar) tetap tunduk pada SOP-6.3 (Styleguide dan nada sopan).
 
 Aturan ini, bersama SOP-6.3, menjamin bahwa setiap interaksi keluar Akun_Quotes menyasar konten yang selaras nilai moral dan disampaikan secara sopan sesuai Styleguide — konsisten dengan invarian dokumen pada *Correctness Property 9*. *(Requirement R6.5)*
+
+### 6.6 Frekuensi Balasan pada Postingan Akun Berpengaruh
+
+**SOP-6.6** — **Frekuensi minimum balasan pada akun berpengaruh.** Untuk mendorong jangkauan dan keterlibatan (mendukung Metrik_Kelayakan pada Bagian 10), Akun_Quotes **wajib melakukan minimum 10 (sepuluh) balasan/komentar (*reply*) per hari** pada postingan **akun berpengaruh** — yaitu akun dengan **jumlah pengikut tinggi atau tayangan (*impressions*) tinggi** — **tanpa batas maksimum**. Ketentuan:
+
+1. **Batas bawah (minimum 10 reply/hari)** — menjaga kehadiran aktif Akun_Quotes pada percakapan berjangkauan luas guna meningkatkan visibilitas dan engagement (Bagian 10).
+2. **Tanpa batas maksimum** — tidak ada batas atas jumlah balasan harian, selama setiap balasan tetap berkualitas dan mematuhi ketentuan di bawah.
+3. **Tunduk pada gerbang keselarasan & Styleguide** — setiap balasan **hanya** dilakukan pada konten yang selaras Nilai Moral (SOP-6.5, SOP-2.1) dan **wajib** mengikuti Styleguide serta nada sopan/reflektif (SOP-6.3); dilarang membalas secara emosional, provokatif, atau demi engagement semata dengan mengorbankan nilai moral (SOP-6.4).
+4. **Wajib pendapat pribadi orisinal untuk mitigasi spam** — untuk mencegah balasan bervolume tinggi tampil sebagai *spam*, setiap balasan **wajib memuat pendapat pribadi (opini) yang orisinal dari admin** yang relevan dengan konteks postingan yang dibalas — bukan sekadar templat, ucapan generik ("Setuju!", "Bagus"), tempelan kutipan tanpa tanggapan, atau balasan seragam yang disalin ke banyak postingan. Ketentuan:
+   - **Orisinal & kontekstual** — opini ditulis khusus menanggapi isi postingan sasaran, menunjukkan pemikiran nyata admin.
+   - **Selaras nilai moral & sopan** — opini tetap tunduk pada gerbang keselarasan (SOP-6.5) dan Styleguide/nada sopan-reflektif (SOP-6.3).
+   - **Boleh menautkan nilai moral** — admin boleh mengaitkan opini dengan perspektif bernilai moral akun, namun tetap sebagai tanggapan personal, bukan promosi.
+5. **Larangan spam & manipulasi** — balasan tidak boleh berupa spam, promosi, atau balasan seragam massal; setiap balasan harus relevan, orisinal, dan bernilai, sejalan dengan kepatuhan kebijakan monetisasi Platform_X (SOP-10.6, dan lampiran `lampiran-monetisasi-x.md` SOP-M.4).
+6. **Pencatatan** — jumlah balasan harian pada akun berpengaruh dipantau sebagai bagian dari aktivitas engagement (Bagian 10).
+
+> [TODO: Tetapkan ambang kuantitatif "akun berpengaruh" (mis. minimum jumlah pengikut dan/atau impressions rata-rata per postingan) berdasarkan data Platform_X dan strategi pertumbuhan.]
+
+*(Requirement R6.5)*
 
 ## Bagian 7: Moderasi Komentar
 
@@ -712,13 +730,19 @@ flowchart TD
 
 ### 9.1 Frekuensi Posting Harian (Minimum & Maksimum)
 
-**SOP-9.1** — **Frekuensi posting harian.** Akun_Quotes **wajib memposting dalam rentang frekuensi harian baku** berikut agar kehadiran akun konsisten tanpa membanjiri audiens: **minimum 1 (satu) postingan per hari** dan **maksimum 3 (tiga) postingan per hari**. Ketentuan:
+**SOP-9.1** — **Frekuensi posting harian.** Akun_Quotes **wajib memposting minimum 10 (sepuluh) postingan per hari**, **tanpa batas maksimum**, agar kehadiran akun agresif dan konsisten dalam mendorong pertumbuhan metrik kelayakan. Ketentuan:
 
-1. **Batas bawah (minimum 1/hari)** — menjaga konsistensi kehadiran harian yang mendukung pertumbuhan metrik kelayakan (Bagian 10). Bila pada suatu hari tidak ada satu pun konten yang dapat ditayangkan secara sah, berlaku aturan pengosongan slot (SOP-9.5) — konsistensi **tidak boleh** dicapai dengan menayangkan konten yang belum APPROVED.
-2. **Batas atas (maksimum 3/hari)** — mencegah *over-posting* yang menurunkan kualitas keterlibatan dan mengganggu pengalaman audiens.
+1. **Batas bawah (minimum 10/hari)** — menjaga volume kehadiran harian yang tinggi untuk mendukung pertumbuhan metrik kelayakan (Bagian 10). Bila pada suatu hari tidak tersedia cukup konten yang dapat ditayangkan secara sah untuk memenuhi minimum ini, berlaku aturan pengosongan slot (SOP-9.5) — konsistensi **tidak boleh** dicapai dengan menayangkan konten yang belum APPROVED.
+2. **Tanpa batas maksimum** — tidak ada batas atas jumlah postingan harian; namun setiap postingan tetap wajib melewati gerbang persetujuan dan menjaga kualitas, sehingga penambahan volume **tidak boleh** menurunkan standar konten (Bagian 2–4).
 3. **Hanya konten APPROVED yang dihitung** — setiap postingan yang mengisi frekuensi harian ini wajib berstatus APPROVED (SOP-2.9).
+4. **Wajib format thread untuk mitigasi spam** — untuk mencegah volume harian yang tinggi (minimum 10/hari) tampil sebagai *spam* atau membanjiri linimasa dengan postingan tunggal beruntun, beberapa Quotes yang bertema/berkaitan **wajib dikelompokkan dan ditayangkan sebagai satu thread** (utas), bukan sebagai postingan terpisah yang dikirim berturut-turut dalam waktu berdekatan. Ketentuan thread:
+   - **Kalimat/paragraf pembuka bertema (wajib)** — postingan pembuka thread **wajib diawali dengan satu kalimat atau paragraf pembuka yang disesuaikan dengan tema Quotes** yang ada di dalam thread tersebut. Pembuka ini berfungsi memperkenalkan benang merah utas, menarik perhatian audiens, dan menegaskan bahwa rangkaian tersebut kurasi bertema — bukan sekadar postingan beruntun. Ketentuan pembuka: (a) **relevan dengan tema** seluruh Quotes dalam thread; (b) tunduk pada Styleguide dan tone of voice moral/sopan/reflektif (SOP-4.1, SOP-4.2, SOP-4.5); (c) tetap dalam batas 280 karakter (SOP-2.7) dan boleh menyertakan penomoran utas (mis. `1/n`).
+   - **Postingan pembuka (1/n)** memuat kalimat/paragraf pembuka bertema di atas, diikuti satu Quotes lengkap sesuai Template Format Postingan (SOP-4.3), termasuk atribusi dan inisial admin.
+   - **Postingan lanjutan (2/n, 3/n, …)** memuat Quotes berkaitan lainnya yang selaras tema pembuka, masing-masing tetap mematuhi format, atribusi, inisial admin (SOP-4.3), dan batas tagar (SOP-4.4).
+   - **Penomoran utas** (mis. `1/n`) dianjurkan agar audiens memahami rangkaian dan menghindari kesan pengulangan/spam.
+   - Setiap Quotes di dalam thread tetap dihitung sebagai satu postingan terhadap frekuensi harian dan tetap wajib berstatus APPROVED. Contoh format thread tersedia pada `lampiran-contoh.md`.
 
-> [TODO: Konfirmasi angka frekuensi baku (default: min 1 / maks 3 per hari) terhadap kapasitas produksi konten tim dan respons audiens; sesuaikan berdasarkan data engagement dari Bagian 10.]
+> [TODO: Konfirmasi angka minimum 10/hari terhadap kapasitas produksi konten tim; pastikan volume tinggi tidak mengorbankan gerbang persetujuan (SOP-2.8/2.9) dan kualitas (Bagian 2–4).]
 
 *(Requirement R9.1)*
 
@@ -732,7 +756,7 @@ flowchart TD
 | **Siang** | 11.00 – 13.00 | Jeda istirahat; jangkauan audiens saat rehat. |
 | **Malam** | 19.00 – 21.00 | Puncak aktivitas; cocok untuk kutipan reflektif penutup hari. |
 
-Bila frekuensi harian hanya satu postingan (SOP-9.1), utamakan **sesi malam (19.00–21.00)** sebagai slot berjangkauan tertinggi. Rentang ini bersifat **rekomendasi**, bukan pembatas kaku; jadwal aktual ditetapkan pada Kalender_Konten (SOP-9.3) dan disesuaikan dengan data audiens.
+Karena frekuensi harian tinggi (minimum 10/hari, SOP-9.1), sebarkan postingan pada seluruh sesi aktivitas audiens dan **utamakan sesi malam (19.00–21.00)** untuk konten berjangkauan tertinggi. Rentang ini bersifat **rekomendasi**, bukan pembatas kaku; jadwal aktual ditetapkan pada Kalender_Konten (SOP-9.3) dan disesuaikan dengan data audiens.
 
 > [TODO: Konfirmasi rentang jam posting terhadap data analitik audiens aktual Platform_X (jam aktif pengikut); sesuaikan zona waktu bila audiens lintas wilayah.]
 
@@ -824,7 +848,7 @@ flowchart TD
 | **Jumlah pengikut** | Total pengikut Akun_Quotes pada periode pantau. | `> [TODO: ambang]` | Pertumbuhan dari konsistensi & kualitas konten (Bagian 2–4, 9) |
 | **Tayangan (*impressions*)** | Jumlah tampilan konten Akun_Quotes. | `> [TODO: ambang]` | Frekuensi & jam posting optimal (SOP-9.1, SOP-9.2) |
 | **Tingkat keterlibatan (*engagement*)** | Rasio interaksi (suka, balasan, repost, simpan) terhadap jangkauan/tayangan. | `> [TODO: ambang]` | Kualitas kutipan & interaksi sopan (Bagian 6) |
-| **Konsistensi posting** | Kepatuhan terhadap frekuensi harian baku (Bagian 9). | Min 1 / hari (SOP-9.1) | Kalender_Konten & rantai fallback (SOP-9.3–9.5) |
+| **Konsistensi posting** | Kepatuhan terhadap frekuensi harian baku (Bagian 9). | Min 10 / hari, tanpa maks (SOP-9.1) | Kalender_Konten & rantai fallback (SOP-9.3–9.5) |
 
 Metrik tambahan yang relevan dengan kebijakan Platform_X dapat ditambahkan pada tabel ini melalui revisi (Bagian 0). Setiap metrik memiliki **ambang syarat program** yang menjadi acuan status MEMENUHI vs DI_BAWAH_AMBANG (SOP-10.4).
 
@@ -877,8 +901,7 @@ Dengan kombinasi SOP-10.4 dan SOP-10.5, pemicuan tindakan perbaikan **selalu ter
 2. **Larangan praktik artifisial** — dilarang menggunakan cara yang melanggar kebijakan program untuk mendongkrak metrik (mis. pengikut/keterlibatan artifisial, *bot*, spam, atau manipulasi tayangan). Optimasi metrik **hanya** ditempuh melalui kualitas konten dan konsistensi yang sah (Bagian 2–9).
 3. **Pemantauan perubahan kebijakan** — Admin_Utama (dibantu Pengelola) **wajib meninjau pembaruan kebijakan monetisasi Platform_X** secara berkala dan menyesuaikan SOP melalui mekanisme kontrol dokumen (Bagian 0) bila terjadi perubahan syarat.
 4. **Kepatuhan sebagai syarat kelayakan** — kepatuhan kebijakan monetisasi merupakan bagian tak terpisahkan dari syarat kelayakan (SOP-10.1); ketidakpatuhan diperlakukan sebagai risiko kelayakan yang wajib segera ditangani.
-
-> [TODO: Rujuk dan lampirkan poin-poin kunci kebijakan monetisasi Platform_X yang berlaku (mis. syarat kelayakan monetisasi, larangan konten, aturan keaslian keterlibatan); perbarui saat Platform_X merevisi kebijakan.]
+5. **Rincian peraturan boleh & tidak boleh** — daftar rinci konten dan perilaku **yang boleh** dan **yang tidak boleh** untuk menjaga kelayakan monetisasi ditetapkan pada lampiran khusus `lampiran-monetisasi-x.md` (SOP-M.1–SOP-M.5), yang mengacu pada [Standar Monetisasi Konten X](https://help.x.com/en/rules-and-policies/content-monetization-standards). Lampiran tersebut wajib dipatuhi bersama bagian ini.
 
 *(Requirement R10.6)*
 

@@ -14,11 +14,13 @@
 - [ ] Bila Sumber_Kutipan belum dapat diverifikasi, status Quotes ditetapkan PENDING dan tidak ditayangkan hingga verifikasi selesai (Requirement R3.3)
 - [ ] Quotes tidak melanggar hak cipta (tidak memuat materi berhak cipta tanpa izin atau di luar batas penggunaan wajar) (Requirement R3.4)
 - [ ] Atribusi benar-benar tercantum pada postingan (dapat berupa nama tokoh, tradisi/peradaban, atau label "Anonim") (Requirement R3.5)
-- [ ] Inisial Pengelola/Admin_Utama penanggung jawab tercantum di akhir baris atribusi, dipisahkan tanda koma, huruf kapital 2–3 huruf (SOP-4.3) (Requirement R4.2)
+- [ ] Inisial Pengelola/Admin_Utama penanggung jawab tercantum di akhir baris atribusi, dipisahkan tanda koma, huruf kapital 2–3 huruf (SOP-4.3) (Requirement R4.3)
 - [ ] Panjang karakter Quotes tidak melebihi batas maksimum Platform_X (Requirement R2.6)
 - [ ] Ejaan Bahasa Indonesia baku sesuai PUEBI untuk seluruh konten berbahasa Indonesia (Requirement R4.1)
 - [ ] Tanda baca, penggunaan huruf kapital, dan format kutipan (tanda petik serta pemisah atribusi) sesuai Styleguide (Requirement R4.2)
-- [ ] Jumlah tagar (hashtag) antara minimum satu dan maksimum lima, menggunakan tagar baku akun (Requirement R4.3)
+- [ ] Jumlah tagar (hashtag) antara minimum satu dan maksimum lima, menggunakan tagar baku akun (Requirement R4.4)
+- [ ] Jika postingan berupa thread: postingan pembuka diawali kalimat/paragraf pembuka yang sesuai tema Quotes dalam thread (SOP-9.1) (Requirement R9.6)
+- [ ] Konten & interaksi tidak masuk kategori terlarang standar monetisasi X dan tidak berupa manipulasi platform (lihat `lampiran-monetisasi-x.md`, SOP-M.3/M.4) (Requirement R10.6)
 - [ ] Status Quotes = APPROVED (telah menyelesaikan proses persetujuan) sebelum ditayangkan (Requirement R2.7)
 
 ## Checklist Moderasi

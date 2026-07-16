@@ -4,7 +4,7 @@
 
 ## Template Format Postingan Quotes
 
-Template ini menjadi acuan baku penyusunan setiap postingan Quotes. *(Requirement R4.6)*
+Template ini menjadi acuan baku penyusunan setiap postingan Quotes. *(Requirement R4.7)*
 
 Struktur wajib: (1) isi kutipan dalam tanda petik, (2) baris atribusi yang diawali tanda pisah `—` dan **diakhiri inisial admin penanggung jawab**, dan (3) baris tagar. Atribusi **wajib tercantum** pada setiap postingan (SOP-3.5), inisial admin **wajib dicantumkan** di akhir baris atribusi (SOP-4.3), dan jumlah tagar mengikuti aturan **minimum 1 dan maksimum 5** tagar baku per postingan (SOP-4.4).
 
