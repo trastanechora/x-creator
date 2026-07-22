@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Sync SOP Deliverable to Spec",
+  "description": "Ketika berkas SOP di folder sop/ diubah, otomatis menyinkronkan requirements.md, design.md, dan tasks.md pada spec sop-akun-quotes-x agar keterlacakan tetap konsisten.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "sop/*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Berkas SOP deliverable di folder `sop/` baru saja diubah. Sinkronkan dokumen spec di `.kiro/specs/sop-akun-quotes-x/` agar tetap konsisten dengan deliverable:\n\n1. Baca berkas SOP yang diubah dan bandingkan dengan requirements.md, design.md, dan tasks.md.\n2. Jika ada aturan/kriteria baru, perubahan, atau penomoran (mis. SOP-N.x, R{n}.{m}) yang belum tercermin, perbarui requirements.md → design.md → tasks.md secara berurutan (targeted/incremental, jangan menulis ulang bagian yang tidak berubah).\n3. Pertahankan format EARS, struktur, dan status checkbox tugas ([x]/[-]/[ ]/[ ]*). Jangan membuka kembali tugas yang sudah selesai.\n4. Pastikan anotasi keterlacakan `(Requirement R{n}.{m})`, daftar correctness properties, dan tabel pemetaan tetap konsisten.\n5. Jalankan getDiagnostics pada berkas spec yang diedit dan pastikan bersih.\n\nJika tidak ada perubahan substantif yang perlu disinkronkan, laporkan singkat bahwa spec sudah konsisten."
+  }
+}
