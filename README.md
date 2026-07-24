@@ -43,9 +43,10 @@ Spec yang menjadi sumber kebenaran di balik deliverable SOP.
 - [`design.md`](.kiro/specs/sop-akun-quotes-x/design.md) — struktur, pemetaan requirement, model data, alur kerja, 28 correctness properties, testing strategy.
 - [`tasks.md`](.kiro/specs/sop-akun-quotes-x/tasks.md) — rencana implementasi & keterlacakan tugas.
 
-## 3. Otomasi — `.kiro/hooks/`
+## 3. Otomasi & Aturan Kerja — `.kiro/hooks/` & `.kiro/steering/`
 
-- [`sync-sop-to-spec.kiro.hook`](.kiro/hooks/sync-sop-to-spec.kiro.hook) — hook yang otomatis menyinkronkan spec (requirements/design/tasks) setiap kali berkas SOP di `sop/` diubah.
+- [`sync-sop-to-spec.kiro.hook`](.kiro/hooks/sync-sop-to-spec.kiro.hook) — hook yang otomatis menyinkronkan spec (requirements/design/tasks) setiap kali berkas SOP di [`sop/`](sop/README.md) diubah.
+- [`documentation-links.md`](.kiro/steering/documentation-links.md) — aturan steering: setiap rujukan ke berkas lain wajib berupa tautan Markdown relatif yang dapat diklik, dan tautan diperbarui saat berkas dibuat/dipindahkan/dihapus.
 
 ## Konvensi Dokumen
 
@@ -58,7 +59,7 @@ Spec yang menjadi sumber kebenaran di balik deliverable SOP.
 
 1. Onboarding: baca [`sop/operasional-konten/SOP-Akun-Quotes-X.md`](sop/operasional-konten/SOP-Akun-Quotes-X.md) sebagai pedoman utama.
 2. Harian: gunakan checklist pada [`lampiran-checklist.md`](sop/operasional-konten/lampiran-checklist.md) dan template pada [`lampiran-template.md`](sop/operasional-konten/lampiran-template.md).
-3. Bisnis & legal: sepakati dan tanda tangani ketentuan pada folder `operasional-bisnis/` dan `legal-kepatuhan/`.
+3. Bisnis & legal: sepakati dan tanda tangani ketentuan pada folder [`operasional-bisnis/`](sop/operasional-bisnis/README.md) dan [`legal-kepatuhan/`](sop/legal-kepatuhan/README.md).
 4. Perubahan: edit berkas SOP terkait; hook sinkronisasi akan memicu pembaruan spec agar keterlacakan tetap konsisten.
 
 ## Status & Catatan

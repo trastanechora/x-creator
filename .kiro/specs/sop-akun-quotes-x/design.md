@@ -63,7 +63,7 @@ graph TD
 | Bagian 0 | Metadata & Kontrol Dokumen (versi, tanggal berlaku, persetujuan, riwayat perubahan) | R1.3, R1.4, R1.5 |
 | Bagian 1 | Tujuan, Ruang Lingkup, Definisi Istilah, Pihak Bertanggung Jawab | R1.1, R1.2 |
 | Bagian 2 | Kriteria Konten & Quotes yang Diposting | R2.1–R2.7 |
-| Bagian 3 | Verifikasi Sumber & Atribusi Kutipan | R3.1–R3.5 |
+| Bagian 3 | Verifikasi Sumber & Atribusi Kutipan | R3.1–R3.6 |
 | Bagian 4 | Format Penulisan & Tata Bahasa (Styleguide) | R4.1–R4.8 |
 | Bagian 5 | Kriteria Akun yang Diikuti (Following) | R5.1–R5.6 |
 | Bagian 6 | Kriteria Isi Komentar & Interaksi | R6.1–R6.7 |
@@ -123,6 +123,7 @@ Interface utama bagian ini adalah **status lifecycle Quotes** (lihat Data Models
 - **Sumber tak terverifikasi**: set status PENDING dan tunda hingga verifikasi selesai — R3.3.
 - **Hak cipta**: larangan memposting materi berhak cipta tanpa izin/di luar penggunaan wajar — R3.4.
 - **Kewajiban atribusi tercantum**: setiap postingan wajib memuat Atribusi; tipe atribusi boleh apa pun termasuk label anonim — R3.5.
+- **Kategori sumber perolehan (metadata internal)**: original / website-media sosial / AI, dicatat untuk audit; tiap kategori memicu pemeriksaan sesuai (verifikasi R3.1, hak cipta R3.4, kebijakan AI R14) (SOP-3.6) — R3.6.
 
 ### Bagian 4 — Styleguide (R4)
 
@@ -676,6 +677,12 @@ Untuk setiap materi yang diterbitkan Akun_Quotes, materi tersebut konsisten deng
 
 **Validates: Requirements 15.4, 15.1, 15.2**
 
+### Property 29: Kategori sumber perolehan diklasifikasikan & diperiksa
+
+Untuk setiap Quotes yang naik ke APPROVED, terdapat Kategori_Sumber_Perolehan yang tercatat (original / website-media sosial / AI) dan pemeriksaan sesuai kategori telah dipenuhi: original wajib benar-benar orisinal (selaras Nilai_Moral dan Styleguide); website/media sosial wajib verifikasi Sumber_Kutipan (R3.1) bila dinisbahkan pada tokoh bernama, menghormati hak cipta (R3.4), dan mencatat asal/tautan sumber; AI tunduk pada kebijakan penggunaan AI (Requirement 14), termasuk verifikasi manusia terhadap minimal dua rujukan tepercaya dan larangan fabrikasi.
+
+**Validates: Requirements 3.6**
+
 ## Error Handling
 
 Dalam konteks SOP, "error handling" berarti **penanganan kondisi tidak ideal, kegagalan proses, dan area abu-abu**. SOP menganut prinsip *fail-safe*: bila ragu atau proses belum siap, ambil tindakan paling aman bagi reputasi dan nilai moral.
@@ -717,7 +724,7 @@ Karena keluaran adalah **dokumen SOP**, bukan kode, **property-based testing (PB
    Setiap properti pada bagian Correctness Properties diperiksa sebagai **invarian yang harus dipenuhi dokumen/prosedur**. Reviewer menelusuri apakah teks SOP memaksa properti tersebut selalu benar (mis. Property 1: tidak ada jalur menuju POSTED yang melewati APPROVED).
 
 4. **Audit Operasional Berkala (edge cases & invarian jalan).**
-   Setelah SOP dijalankan, dilakukan audit sampel terhadap Quotes, komentar, following, jadwal, metrik, insiden keamanan/krisis, catatan keuangan/distribusi bagi hasil, penanganan klaim/takedown & data pribadi, penggunaan AI, serta konsistensi identitas brand untuk memverifikasi invarian universal (Property 1–28) dan penanganan edge case benar-benar dipraktikkan. Mencakup R2.4, R2.5, R3.3, R5.4, R5.5, R6.4, R6.7, R7.5, R9.4, R9.5, R9.6, R10.4, R10.5, R11.3, R11.6, ketentuan bisnis R12.2, R12.4, R12.6, R12.8, serta R13.1, R13.2, R13.3, R13.4, R14.2, R14.3, R15.4.
+   Setelah SOP dijalankan, dilakukan audit sampel terhadap Quotes, komentar, following, jadwal, metrik, insiden keamanan/krisis, catatan keuangan/distribusi bagi hasil, penanganan klaim/takedown & data pribadi, penggunaan AI, serta konsistensi identitas brand untuk memverifikasi invarian universal (Property 1–29) dan penanganan edge case benar-benar dipraktikkan. Mencakup R2.4, R2.5, R3.3, R3.6, R5.4, R5.5, R6.4, R6.7, R7.5, R9.4, R9.5, R9.6, R10.4, R10.5, R11.3, R11.6, ketentuan bisnis R12.2, R12.4, R12.6, R12.8, serta R13.1, R13.2, R13.3, R13.4, R14.2, R14.3, R15.4.
 
 ### Tabel Rencana Verifikasi
 
@@ -725,13 +732,13 @@ Karena keluaran adalah **dokumen SOP**, bukan kode, **property-based testing (PB
 |---|---|---|---|
 | Presence review | Kelengkapan bagian & aturan | Saat draf & tiap revisi | R1.1–1.3, R2.2, R4.7 |
 | Consistency review | Keterlacakan & non-kontradiksi | Tiap revisi | ID SOP-N.x, anotasi requirement |
-| Property review | Invarian dokumen/prosedur | Tiap revisi besar | Property 1–28 |
-| Operational audit | Praktik nyata sesuai SOP | Berkala (mis. bulanan) | Atribusi (P2), tagar (P5), kalender (P14), thread (P20), bagi hasil (P22–P24), hak cipta/takedown & data (P25–P26), verifikasi konten ber-AI (P27), konsistensi brand (P28) |
+| Property review | Invarian dokumen/prosedur | Tiap revisi besar | Property 1–29 |
+| Operational audit | Praktik nyata sesuai SOP | Berkala (mis. bulanan) | Atribusi (P2), tagar (P5), kalender (P14), thread (P20), bagi hasil (P22–P24), hak cipta/takedown & data (P25–P26), verifikasi konten ber-AI (P27), konsistensi brand (P28), kategori sumber perolehan (P29) |
 
 ### Definition of Done Dokumen SOP
 
 - Seluruh 15 requirement terpetakan ke minimal satu bagian/aturan (keterlacakan penuh).
-- Seluruh Correctness Property (1–28) dapat ditelusuri ke teks aturan yang menegakkannya.
+- Seluruh Correctness Property (1–29) dapat ditelusuri ke teks aturan yang menegakkannya.
 - Checklist presence lulus tanpa item tertinggal (atau item tertinggal ditandai `> [TODO]` sesuai R1.5).
 - Header kontrol dokumen (versi, tanggal berlaku, penyetuju) dan tabel riwayat perubahan tersedia.
 - Lampiran template & contoh (>=3) tersedia sesuai rencana output file.

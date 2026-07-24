@@ -19,6 +19,7 @@ Setiap kriteria penerimaan (acceptance criteria) menggunakan pola EARS dan ditul
 - **Quotes**: Konten utama berupa kutipan kata bernilai moral yang diposting oleh Akun_Quotes.
 - **Sumber_Kutipan**: Asal-usul sebuah Quotes, dapat berupa tokoh bernama, karya literasi, tradisi peradaban/bangsa, atau anonim.
 - **Atribusi**: Pencantuman Sumber_Kutipan pada sebuah Quotes.
+- **Kategori_Sumber_Perolehan**: Klasifikasi internal sebuah Quotes berdasarkan cara/asal materi diperoleh — (a) karangan sendiri/original, (b) website/media sosial, atau (c) AI — yang dicatat sebagai metadata untuk audit dan menentukan pemeriksaan tambahan; berbeda dari jenis Sumber_Kutipan (tokoh/anonim/tradisi).
 - **Inisial_Admin**: Inisial Pengelola/Admin_Utama penanggung jawab yang dicantumkan pada akhir baris atribusi setiap postingan sebagai penanda akuntabilitas.
 - **Styleguide**: Panduan format penulisan dan tata bahasa untuk seluruh konten dan interaksi Akun_Quotes.
 - **Interaksi**: Aktivitas komentar, balasan, repost, like, dan mention yang dilakukan Akun_Quotes terhadap konten atau pengguna lain.
@@ -89,6 +90,7 @@ Setiap kriteria penerimaan (acceptance criteria) menggunakan pola EARS dan ditul
 3. IF Sumber_Kutipan sebuah Quotes tidak dapat diverifikasi, THEN THE SOP SHALL menetapkan aturan verifikasi dan menunda Quotes tersebut dengan menetapkan statusnya menjadi PENDING hingga verifikasi selesai.
 4. THE SOP SHALL menetapkan aturan penghormatan hak cipta dengan tidak memposting materi berhak cipta tanpa izin atau di luar batas penggunaan wajar.
 5. WHEN sebuah Quotes diposting, THE SOP SHALL menetapkan aturan pencantuman Atribusi dan memastikan kepatuhan bahwa Atribusi benar-benar tercantum pada setiap postingan, dan Atribusi tersebut boleh berupa tipe apa pun termasuk label anonim (misalnya "Anonim" atau nama tradisi/peradaban).
+6. THE SOP SHALL mewajibkan setiap Quotes diklasifikasikan menurut Kategori_Sumber_Perolehan — (a) karangan sendiri/original, (b) website/media sosial, atau (c) AI — dan kategori tersebut dicatat sebagai metadata internal untuk audit; setiap kategori menuntut pemeriksaan sesuai: original wajib benar-benar orisinal dan tunduk pada Nilai_Moral (R2.1) serta Styleguide (Requirement 4); website/media sosial wajib verifikasi Sumber_Kutipan (R3.1) bila dinisbahkan pada tokoh bernama, menghormati hak cipta (R3.4), dan mencatat asal/tautan sumber; AI tunduk pada Kebijakan Penggunaan AI (Requirement 14), termasuk verifikasi manusia terhadap minimal dua rujukan tepercaya dan larangan fabrikasi. (SOP-3.6)
 
 ### Requirement 4: Format Penulisan dan Tata Bahasa (Styleguide)
 

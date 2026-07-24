@@ -27,7 +27,7 @@ sop/
 
 Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun secara bertahap di atas tugas sebelumnya, dan diakhiri dengan review verifikasi yang menyatukan seluruh dokumen. Konvensi yang ditegakkan di setiap aturan: ID stabil `SOP-N.x`, anotasi keterlacakan `(Requirement R{n}.{m})`, dan penanda ketidaklengkapan `> [TODO: ...]` bila bagian belum lengkap (R1.5).
 
-> Catatan verifikasi: sesuai Testing Strategy pada design, korektnessnya bersifat kelengkapan/konsistensi/keterlacakan dokumen. Karena itu tidak ada property-based testing otomatis; verifikasi dilakukan melalui **review/checklist manusia** (presence review, consistency & traceability review, dan property review atas 28 correctness properties).
+> Catatan verifikasi: sesuai Testing Strategy pada design, korektnessnya bersifat kelengkapan/konsistensi/keterlacakan dokumen. Karena itu tidak ada property-based testing otomatis; verifikasi dilakukan melalui **review/checklist manusia** (presence review, consistency & traceability review, dan property review atas 29 correctness properties).
 
 ## Tasks
 
@@ -63,8 +63,9 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - Tulis aturan verifikasi tokoh bernama (min. dua rujukan tepercaya sebelum posting) (R3.1) dan atribusi sumber anonim/tradisi (R3.2)
     - Tulis aturan penundaan status PENDING untuk sumber tak terverifikasi (R3.3) dan penghormatan hak cipta (R3.4)
     - Tulis kewajiban atribusi tercantum pada setiap postingan, termasuk label anonim (R3.5)
+    - Tulis aturan Kategori_Sumber_Perolehan (metadata internal): original / website-media sosial / AI, dicatat untuk audit; tiap kategori memicu pemeriksaan sesuai (verifikasi R3.1, hak cipta R3.4, kebijakan AI Requirement 14) (SOP-3.6, R3.6)
     - Sertakan/rujuk diagram Alur Verifikasi Sumber & Atribusi dari design
-    - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
+    - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.6_
 
   - [x] 2.4 Tulis Bagian 4: Format Penulisan & Tata Bahasa (Styleguide)
     - Tulis aturan ejaan baku PUEBI (R4.1); tanda baca, huruf kapital, format kutipan/pemisah atribusi (R4.2)
@@ -176,7 +177,7 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - Verifikasi seluruh 12 requirement terpetakan ke minimal satu bagian/aturan (keterlacakan penuh)
     - _Requirements: 1.2, 1.4, 1.5_
 
-  - [x]* 7.3 Property review (pemetaan 28 correctness properties)
+  - [x]* 7.3 Property review (pemetaan 29 correctness properties)
     - Telusuri teks SOP untuk memastikan setiap properti menjadi invarian yang ditegakkan dokumen/prosedur (review manusia, bukan PBT otomatis)
     - **Property 1: Kelengkapan lifecycle persetujuan sebelum tayang** — Validates: R2.3, 2.7, 3.1, 3.3
     - **Property 2: Setiap postingan memiliki atribusi valid berikut inisial penanggung jawab** — Validates: R3.2, 3.5, 4.3
@@ -206,7 +207,8 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - **Property 26: Perlindungan data & keterbukaan komersial** — Validates: R13.3, R13.4
     - **Property 27: Konten ber-AI tetap terverifikasi & tidak difabrikasi** — Validates: R14.2, R14.3
     - **Property 28: Konsistensi identitas brand** — Validates: R15.1, R15.2, R15.4
-    - _Requirements: 1.4, 1.5, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 3.3, 4.3, 4.4, 4.6, 4.8, 5.1, 5.3, 5.4, 6.1, 6.2, 6.3, 6.5, 6.6, 6.7, 7.1, 7.2, 8.1, 8.2, 8.3, 8.5, 8.6, 9.3, 9.4, 9.5, 9.6, 10.4, 10.5, 10.7, 11.5, 12.2, 12.3, 12.4, 12.5, 12.6, 12.8, 13.1, 13.2, 13.3, 13.4, 14.2, 14.3, 15.1, 15.2, 15.4_
+    - **Property 29: Kategori sumber perolehan diklasifikasikan & diperiksa** — Validates: R3.6
+    - _Requirements: 1.4, 1.5, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 3.3, 3.6, 4.3, 4.4, 4.6, 4.8, 5.1, 5.3, 5.4, 6.1, 6.2, 6.3, 6.5, 6.6, 6.7, 7.1, 7.2, 8.1, 8.2, 8.3, 8.5, 8.6, 9.3, 9.4, 9.5, 9.6, 10.4, 10.5, 10.7, 11.5, 12.2, 12.3, 12.4, 12.5, 12.6, 12.8, 13.1, 13.2, 13.3, 13.4, 14.2, 14.3, 15.1, 15.2, 15.4_
 
 - [x] 9. Susun folder `operasional-bisnis/` (ketentuan bisnis antar-Founder)
   - [x] 9.1 Tulis `operasional-bisnis/README.md`
