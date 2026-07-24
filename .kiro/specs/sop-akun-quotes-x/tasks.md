@@ -27,7 +27,7 @@ sop/
 
 Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun secara bertahap di atas tugas sebelumnya, dan diakhiri dengan review verifikasi yang menyatukan seluruh dokumen. Konvensi yang ditegakkan di setiap aturan: ID stabil `SOP-N.x`, anotasi keterlacakan `(Requirement R{n}.{m})`, dan penanda ketidaklengkapan `> [TODO: ...]` bila bagian belum lengkap (R1.5).
 
-> Catatan verifikasi: sesuai Testing Strategy pada design, korektnessnya bersifat kelengkapan/konsistensi/keterlacakan dokumen. Karena itu tidak ada property-based testing otomatis; verifikasi dilakukan melalui **review/checklist manusia** (presence review, consistency & traceability review, dan property review atas 29 correctness properties).
+> Catatan verifikasi: sesuai Testing Strategy pada design, korektnessnya bersifat kelengkapan/konsistensi/keterlacakan dokumen. Karena itu tidak ada property-based testing otomatis; verifikasi dilakukan melalui **review/checklist manusia** (presence review, consistency & traceability review, dan property review atas 30 correctness properties).
 
 ## Tasks
 
@@ -177,7 +177,7 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - Verifikasi seluruh 12 requirement terpetakan ke minimal satu bagian/aturan (keterlacakan penuh)
     - _Requirements: 1.2, 1.4, 1.5_
 
-  - [x]* 7.3 Property review (pemetaan 29 correctness properties)
+  - [x]* 7.3 Property review (pemetaan 30 correctness properties)
     - Telusuri teks SOP untuk memastikan setiap properti menjadi invarian yang ditegakkan dokumen/prosedur (review manusia, bukan PBT otomatis)
     - **Property 1: Kelengkapan lifecycle persetujuan sebelum tayang** — Validates: R2.3, 2.7, 3.1, 3.3
     - **Property 2: Setiap postingan memiliki atribusi valid berikut inisial penanggung jawab** — Validates: R3.2, 3.5, 4.3
@@ -208,7 +208,8 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - **Property 27: Konten ber-AI tetap terverifikasi & tidak difabrikasi** — Validates: R14.2, R14.3
     - **Property 28: Konsistensi identitas brand** — Validates: R15.1, R15.2, R15.4
     - **Property 29: Kategori sumber perolehan diklasifikasikan & diperiksa** — Validates: R3.6
-    - _Requirements: 1.4, 1.5, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 3.3, 3.6, 4.3, 4.4, 4.6, 4.8, 5.1, 5.3, 5.4, 6.1, 6.2, 6.3, 6.5, 6.6, 6.7, 7.1, 7.2, 8.1, 8.2, 8.3, 8.5, 8.6, 9.3, 9.4, 9.5, 9.6, 10.4, 10.5, 10.7, 11.5, 12.2, 12.3, 12.4, 12.5, 12.6, 12.8, 13.1, 13.2, 13.3, 13.4, 14.2, 14.3, 15.1, 15.2, 15.4_
+    - **Property 30: Komitmen & kontribusi Founder/Co-Founder ditetapkan, ditinjau, dan ditindaklanjuti** — Validates: R12.11, R12.12, R12.13, R12.14
+    - _Requirements: 1.4, 1.5, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 3.3, 3.6, 4.3, 4.4, 4.6, 4.8, 5.1, 5.3, 5.4, 6.1, 6.2, 6.3, 6.5, 6.6, 6.7, 7.1, 7.2, 8.1, 8.2, 8.3, 8.5, 8.6, 9.3, 9.4, 9.5, 9.6, 10.4, 10.5, 10.7, 11.5, 12.2, 12.3, 12.4, 12.5, 12.6, 12.8, 12.11, 12.12, 12.13, 12.14, 13.1, 13.2, 13.3, 13.4, 14.2, 14.3, 15.1, 15.2, 15.4_
 
 - [x] 9. Susun folder `operasional-bisnis/` (ketentuan bisnis antar-Founder)
   - [x] 9.1 Tulis `operasional-bisnis/README.md`
@@ -229,7 +230,11 @@ Setiap tugas menulis/menyusun bagian dokumen SOP dan lampirannya, membangun seca
     - Tulis kewajiban persetujuan Founder dan Co-Founder atas pengeluaran di luar Biaya_Langganan sebelum dibelanjakan beserta pencatatannya (R12.8)
     - Tulis pemeliharaan catatan keuangan (pemasukan, pengeluaran, saldo cadangan, distribusi) & pelaporan berkala yang dapat diakses Founder dan Co-Founder (R12.9)
     - Tulis tata kelola perubahan kesepakatan, penyelesaian sengketa, dan keluarnya Founder, termasuk pencabutan akses selaras R11.5 (R12.10)
-    - _Requirements: 12.6, 12.7, 12.8, 12.9, 12.10_
+    - Tulis komitmen waktu minimum Founder & Co-Founder (default Founder ≥7 jam/mgg, Co-Founder ≥5 jam/mgg; ≥1 pihak aktif tiap hari; alasan wajar dikecualikan) (SOP-B.11, R12.11)
+    - Tulis matriks pembagian peran Founder vs Co-Founder (penanggung jawab utama & cadangan per area, selaras SOP-1.6) (SOP-B.12, R12.12)
+    - Tulis tinjauan kontribusi berkala berbasis data terukur bersama pelaporan keuangan (SOP-B.13, R12.13)
+    - Tulis konsekuensi bertingkat bila kontribusi tak terpenuhi: klarifikasi → rencana perbaikan → redistribusi → penyesuaian bagi hasil/kepemilikan (persetujuan kedua pihak, opsi vesting) → exit (SOP-B.14, R12.14)
+    - _Requirements: 12.6, 12.7, 12.8, 12.9, 12.10, 12.11, 12.12, 12.13, 12.14_
 
 - [x] 11. Susun folder `legal-kepatuhan/` (kebijakan legal, kepatuhan & AI)
   - [x] 11.1 Tulis `legal-kepatuhan/README.md`

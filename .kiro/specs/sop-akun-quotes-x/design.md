@@ -75,7 +75,7 @@ graph TD
 | Lampiran (`operasional-konten/`) | Template, Checklist, Contoh Format, Log Pembelajaran (berkas `lampiran-template.md`, `lampiran-checklist.md`, `lampiran-contoh.md` berada di `operasional-konten/`) | Pendukung R2, R3, R4, R8 |
 | Lampiran (`operasional-konten/lampiran-monetisasi-x.md`) | Peraturan Boleh & Tidak Boleh Monetisasi (acuan Content Monetization Standards X) | R10.7 (mendukung R10.1, R10.6) |
 | Bisnis (`operasional-bisnis/modal-dan-bagi-hasil.md`) | Modal Awal, Dana Cadangan Langganan & Sistem Bagi Hasil (SOP-B.1–SOP-B.5) | R12.1–R12.5 |
-| Bisnis (`operasional-bisnis/ketentuan-bisnis.md`) | Kepemilikan, peran Founder, pengeluaran, pencatatan, tata kelola/sengketa (SOP-B.6–SOP-B.10) | R12.6–R12.10 |
+| Bisnis (`operasional-bisnis/ketentuan-bisnis.md`) | Kepemilikan, peran Founder, pengeluaran, pencatatan, tata kelola/sengketa, komitmen waktu, matriks peran, tinjauan kontribusi, konsekuensi bertingkat (SOP-B.6–SOP-B.10, SOP-B.11–SOP-B.14) | R12.6–R12.14 |
 | Legal (`legal-kepatuhan/kebijakan-hak-cipta-privasi.md`) | Hak cipta & fair use, klaim/takedown, perlindungan data pribadi/UU PDP, disclosure iklan, disclaimer (SOP-L.1–SOP-L.5) | R13.1–R13.5 |
 | Legal (`legal-kepatuhan/kebijakan-penggunaan-ai.md`) | Ruang lingkup AI, verifikasi wajib, larangan, keaslian/tanggung jawab manusia, privasi data pada alat AI (SOP-AI.1–SOP-AI.5) | R14.1–R14.5 |
 | Konten (`operasional-konten/panduan-brand-identitas.md`) | Identitas verbal, identitas visual, bio profil, konsistensi/Template_Baku, do & don't visual (SOP-BR.1–SOP-BR.5) | R15.1–R15.5 |
@@ -217,6 +217,10 @@ Berbeda dengan Bagian 1–11 yang mengatur **operasional konten**, ketentuan bis
 - **Pengeluaran di luar Biaya_Langganan** wajib disetujui Founder dan Co-Founder sebelum dibelanjakan dan dicatat — SOP-B.8 (R12.8).
 - **Pemeliharaan catatan keuangan & pelaporan berkala** (pemasukan, pengeluaran, saldo cadangan, distribusi) yang dapat diakses Founder dan Co-Founder — SOP-B.9 (R12.9).
 - **Tata kelola perubahan kesepakatan, penyelesaian sengketa, dan keluarnya Founder**, termasuk pencabutan akses selaras R11.5 — SOP-B.10 (R12.10).
+- **Komitmen waktu minimum part-time**: ambang default Founder ≥ 7 jam/minggu dan Co-Founder ≥ 5 jam/minggu (dapat disesuaikan), dengan kewajiban sekurang-kurangnya satu pihak aktif setiap hari untuk menjaga irama posting harian (R9.1) dan moderasi; ketidakhadiran karena alasan wajar (sakit/cuti yang diberitahukan sebelumnya) tidak dihitung sebagai pelanggaran — SOP-B.11 (R12.11).
+- **Matriks pembagian peran Founder vs Co-Founder**: mencantumkan penanggung jawab utama dan penanggung jawab cadangan untuk tiap area operasional selaras Matriks Peran & Wewenang (SOP-1.6), dengan keputusan strategis, keamanan, dan persetujuan konten sensitif tetap berada pada Admin_Utama — SOP-B.12 (R12.12).
+- **Tinjauan kontribusi berkala berbasis data terukur**: dilakukan bersamaan dengan pelaporan keuangan (SOP-B.9) menggunakan data terukur (jumlah Quotes, jumlah balasan harian R6.6, aktivitas moderasi, dan realisasi jam terhadap komitmen SOP-B.11), serta menyepakati penyesuaian bila terdapat ketimpangan kontribusi — SOP-B.13 (R12.13).
+- **Konsekuensi bertingkat bila kontribusi tak terpenuhi**: bila salah satu pihak berulang tidak memenuhi komitmen (SOP-B.11) atau perannya (SOP-B.12) tanpa alasan wajar, tahapan berjenjang berlaku — klarifikasi → rencana perbaikan berjangka waktu → redistribusi tugas → peninjauan penyesuaian bagi hasil (SOP-B.4) atau Kepemilikan_Ekuitas (SOP-B.2) yang hanya berlaku dengan persetujuan kedua pihak termasuk opsi vesting → hingga exit sesuai tata kelola keluarnya pihak (SOP-B.10); penyesuaian bagi hasil, kepemilikan, dan vesting ditandai to-be-confirmed oleh penasihat hukum — SOP-B.14 (R12.14).
 
 Interface utama bagian ini adalah **status fase cadangan** `BELUM_PENUH`/`PENUH` (lihat Data Models) yang menentukan alokasi waterfall pada SOP-B.4.
 
@@ -683,6 +687,12 @@ Untuk setiap Quotes yang naik ke APPROVED, terdapat Kategori_Sumber_Perolehan ya
 
 **Validates: Requirements 3.6**
 
+### Property 30: Komitmen & kontribusi Founder/Co-Founder ditetapkan, ditinjau, dan ditindaklanjuti
+
+Untuk setiap periode operasional, terdapat komitmen waktu minimum dan matriks pembagian peran (penanggung jawab utama & cadangan) yang ditetapkan, tinjauan kontribusi berkala berbasis data terukur dilakukan bersama pelaporan keuangan, dan setiap ketidakpenuhan komitmen atau peran yang berulang tanpa alasan wajar memicu tahapan konsekuensi bertingkat (klarifikasi → rencana perbaikan → redistribusi → penyesuaian bagi hasil/kepemilikan → exit), dengan penyesuaian bagi hasil atau Kepemilikan_Ekuitas hanya berlaku atas persetujuan kedua pihak.
+
+**Validates: Requirements 12.11, 12.12, 12.13, 12.14**
+
 ## Error Handling
 
 Dalam konteks SOP, "error handling" berarti **penanganan kondisi tidak ideal, kegagalan proses, dan area abu-abu**. SOP menganut prinsip *fail-safe*: bila ragu atau proses belum siap, ambil tindakan paling aman bagi reputasi dan nilai moral.
@@ -724,7 +734,7 @@ Karena keluaran adalah **dokumen SOP**, bukan kode, **property-based testing (PB
    Setiap properti pada bagian Correctness Properties diperiksa sebagai **invarian yang harus dipenuhi dokumen/prosedur**. Reviewer menelusuri apakah teks SOP memaksa properti tersebut selalu benar (mis. Property 1: tidak ada jalur menuju POSTED yang melewati APPROVED).
 
 4. **Audit Operasional Berkala (edge cases & invarian jalan).**
-   Setelah SOP dijalankan, dilakukan audit sampel terhadap Quotes, komentar, following, jadwal, metrik, insiden keamanan/krisis, catatan keuangan/distribusi bagi hasil, penanganan klaim/takedown & data pribadi, penggunaan AI, serta konsistensi identitas brand untuk memverifikasi invarian universal (Property 1–29) dan penanganan edge case benar-benar dipraktikkan. Mencakup R2.4, R2.5, R3.3, R3.6, R5.4, R5.5, R6.4, R6.7, R7.5, R9.4, R9.5, R9.6, R10.4, R10.5, R11.3, R11.6, ketentuan bisnis R12.2, R12.4, R12.6, R12.8, serta R13.1, R13.2, R13.3, R13.4, R14.2, R14.3, R15.4.
+   Setelah SOP dijalankan, dilakukan audit sampel terhadap Quotes, komentar, following, jadwal, metrik, insiden keamanan/krisis, catatan keuangan/distribusi bagi hasil, komitmen waktu & tinjauan kontribusi Founder/Co-Founder, penanganan klaim/takedown & data pribadi, penggunaan AI, serta konsistensi identitas brand untuk memverifikasi invarian universal (Property 1–30) dan penanganan edge case benar-benar dipraktikkan. Mencakup R2.4, R2.5, R3.3, R3.6, R5.4, R5.5, R6.4, R6.7, R7.5, R9.4, R9.5, R9.6, R10.4, R10.5, R11.3, R11.6, ketentuan bisnis R12.2, R12.4, R12.6, R12.8, R12.11, R12.12, R12.13, R12.14, serta R13.1, R13.2, R13.3, R13.4, R14.2, R14.3, R15.4.
 
 ### Tabel Rencana Verifikasi
 
@@ -732,13 +742,13 @@ Karena keluaran adalah **dokumen SOP**, bukan kode, **property-based testing (PB
 |---|---|---|---|
 | Presence review | Kelengkapan bagian & aturan | Saat draf & tiap revisi | R1.1–1.3, R2.2, R4.7 |
 | Consistency review | Keterlacakan & non-kontradiksi | Tiap revisi | ID SOP-N.x, anotasi requirement |
-| Property review | Invarian dokumen/prosedur | Tiap revisi besar | Property 1–29 |
+| Property review | Invarian dokumen/prosedur | Tiap revisi besar | Property 1–30 |
 | Operational audit | Praktik nyata sesuai SOP | Berkala (mis. bulanan) | Atribusi (P2), tagar (P5), kalender (P14), thread (P20), bagi hasil (P22–P24), hak cipta/takedown & data (P25–P26), verifikasi konten ber-AI (P27), konsistensi brand (P28), kategori sumber perolehan (P29) |
 
 ### Definition of Done Dokumen SOP
 
 - Seluruh 15 requirement terpetakan ke minimal satu bagian/aturan (keterlacakan penuh).
-- Seluruh Correctness Property (1–29) dapat ditelusuri ke teks aturan yang menegakkannya.
+- Seluruh Correctness Property (1–30) dapat ditelusuri ke teks aturan yang menegakkannya.
 - Checklist presence lulus tanpa item tertinggal (atau item tertinggal ditandai `> [TODO]` sesuai R1.5).
 - Header kontrol dokumen (versi, tanggal berlaku, penyetuju) dan tabel riwayat perubahan tersedia.
 - Lampiran template & contoh (>=3) tersedia sesuai rencana output file.
